@@ -2439,7 +2439,7 @@ function SimulatorWidget(node) {
       var w = window.open('', title, 'width=500,height=300,resizable=yes,scrollbars=yes,toolbar=no,location=no,menubar=no,status=no');
 
       var html = "<html><head>";
-      html += "<link href='style.css' rel='stylesheet' type='text/css' />";
+      html += "<link href='simulator/style.css' rel='stylesheet' type='text/css' />";
       html += "<title>" + title + "</title></head><body>";
       html += "<pre><code>";
 
